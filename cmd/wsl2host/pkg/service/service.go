@@ -15,7 +15,8 @@ import (
 	"github.com/shayne/go-wsl2-host/pkg/wslapi"
 )
 
-const tld = ".wsl"
+//const tld = ".wsl"
+const tld = ""
 const windowshost = "windows.local"
 
 var hostnamereg, _ = regexp.Compile("[^A-Za-z0-9]+")
